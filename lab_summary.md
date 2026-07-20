@@ -1,0 +1,4 @@
+As part of this exercise I did a number of improvements to my code. Here is a summary list:
+1. created a set of helper functions to handle specific states of the sensor that would trigger alerts. This simplified the code and prevented duplication where the state values didn't need to be re-defined in functions later in the code.
+2. Created a set of global values that could be used throughout the code so that they didn't need to be called or created again later.
+3. Simplified the output generator using helper functions instead of having a massive loop that printed all of the outputs to the user. This should help in debugging and making changes to the code later.
